@@ -26,11 +26,6 @@ SECRET_KEY = 'django-insecure-lnkyv%ic%d5%xl(onqxzm@xqm)6fp!$r)dv8xqga&b6mbm+epo
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ENV_PATH = "production.env"
-if DEBUG:
-	ENV_PATH = "development.env"
-
-ENV = dotenv_values(find_dotenv(ENV_PATH))
 RES_PATH = BASE_DIR.parent.parent / "res/"
 
 ALLOWED_HOSTS = ['*']
