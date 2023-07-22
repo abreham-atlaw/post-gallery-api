@@ -58,7 +58,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-	'http://localhost:5173',
+	'post-gallery.com',
 ]
 
 ROOT_URLCONF = 'postgallery.urls'
