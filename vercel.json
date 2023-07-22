@@ -1,14 +1,14 @@
 {
 	"builds": [
 	  {
-		"src": "postgallery/wsgi.py",
+		"src": "src/python/postgallery/postgallery/wsgi.py",
 		"use": "@vercel/python"
 	  }
 	],
 	"routes": [
 	  {
 		"src": "/(.*)",
-		"dest": "postgallery/wsgi.py"
+		"dest": "src/python/postgallery/postgallery/wsgi.py"
 	  }
 	]
   }
