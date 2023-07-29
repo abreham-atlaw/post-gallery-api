@@ -147,8 +147,8 @@ CHAPPA_API_KEY = "CHASECK_TEST-h8BNHLeAyQFkLj8b116Uu8qzPLf2kGyD"
 
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.office365.com'
+EMAIL_HOST = 'smtp.mail.yahoo.com'
 EMAIL_USE_TLS = True
-EMAIL_PORT = 587
-EMAIL_HOST_USER = "post-gallery@outlook.com"
-EMAIL_HOST_PASSWORD = "9rV7zTU4RDLySiB"
+EMAIL_PORT = 465
+EMAIL_HOST_USER = "abrishatlaw@yahoo.com"
+EMAIL_HOST_PASSWORD = "zsalrtvbtsbxgadf"
